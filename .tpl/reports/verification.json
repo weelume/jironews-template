@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-25T04:18:38.879Z",
+  "sourceCommit": null,
+  "sourceDigest": "3137268651bf8d8ca558b95747f1c523025aae5848bab5afd4095440a6d562fd",
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T04:18:15.628Z",
+      "finishedAt": "2026-10-25T04:18:17.549Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T04:18:17.550Z",
+      "finishedAt": "2026-10-25T04:18:20.788Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T04:18:20.788Z",
+      "finishedAt": "2026-10-25T04:18:21.528Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T04:18:21.528Z",
+      "finishedAt": "2026-10-25T04:18:37.793Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-25T04:18:38.378Z"
+    }
+  ],
+  "limitations": [
+    "Original-reference motion has not been verified frame by frame across every viewport.",
+    "Two reference image URLs return 404 and have documented same-subject replacements.",
+    "Commercial redistribution rights for the reference design and every asset are not fully verified.",
+    "This report covers application commands and service health; it does not certify complete visual fidelity."
+  ]
+}

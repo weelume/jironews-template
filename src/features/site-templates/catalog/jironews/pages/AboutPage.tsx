@@ -1,0 +1,6 @@
+'use client';
+import type {SiteTemplatePageProps} from '../../../types';
+import {team} from '../content';
+import {useJironewsHost} from '../host';
+import {Layout,text} from '../components/Layout';
+export default function AboutPage({locale='zh',basePath}:SiteTemplatePageProps){const host=useJironewsHost();return <Layout locale={locale} basePath={basePath}><main id="jn-main" className="jn-container jn-inner"><p className="jn-eyebrow">{host.brandName[locale]}</p><h1 className="jn-page-title">{text(locale,'真实故事 / 更明亮的明天','Real stories. A brighter tomorrow.').split(' / ').map(s=><span style={{display:'block'}} key={s}>{s}</span>)}</h1><p className="jn-intro">{text(locale,'新闻不只是标题，更是人与世界之间的连接。我们以好奇、独立与开放的态度，呈现多元视角，关注变化背后的真实生活。本页面的团队、数据与报道为模板演示内容。','News is more than a headline. It connects people with the world. Curiosity, independence and openness shape our editorial perspective. Teams, metrics and reporting on this site are demonstration content.')}</p><div className="jn-section-heading"><h2>{text(locale,'认识编辑团队','Meet Our Expert Team')}</h2></div><div className="jn-team-grid">{team.map(t=><div key={t.id}><img src={t.image} alt={t.name}/><p>{t.name} <span>/ {t.role[locale]}</span></p></div>)}</div></main></Layout>}

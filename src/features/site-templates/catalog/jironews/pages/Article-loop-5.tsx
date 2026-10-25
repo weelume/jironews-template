@@ -1,0 +1,1 @@
+import ArticlePage from './ArticlePage';import type {SiteTemplatePageProps} from '../../../types';export default function Page(props:SiteTemplatePageProps){return <ArticlePage {...props} articleId="loop-5"/>}

@@ -1,0 +1,1 @@
+import type {ReactNode} from 'react';import './globals.css';export const metadata={title:'JiroNews',description:'多元新闻视角 · 双语媒体模板'};export default function Layout({children}:{children:ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}

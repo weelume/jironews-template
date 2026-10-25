@@ -1,0 +1,1 @@
+import ArticlesPage from './ArticlesPage';import type {SiteTemplatePageProps} from '../../../types';export default function Page(props:SiteTemplatePageProps){return <ArticlesPage {...props} categoryId="travel"/>}

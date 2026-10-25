@@ -848,7 +848,7 @@ export const podcasts=[
       "en": "Today's Top Stories: What Matters Now"
     },
     "image": "/templates/jironews/images/photo-1590602847861-f357a9332bbc.jpg",
-    "duration": "15 MIN"
+    "duration": {"zh":"15 分钟","en":"15 MIN"}
   },
   {
     "id": "global-events",
@@ -857,7 +857,7 @@ export const podcasts=[
       "en": "How Global Events Shape Our Tomorrow"
     },
     "image": "/templates/jironews/images/photo-1585829365295-ab7cd400c167.jpg",
-    "duration": "GLOBAL PERSPECTIVE"
+    "duration": {"zh":"全球视野","en":"GLOBAL PERSPECTIVE"}
   },
   {
     "id": "real-people",
@@ -866,6 +866,6 @@ export const podcasts=[
       "en": "Real People. Real Stories. A Brighter Tomorrow."
     },
     "image": "/templates/jironews/images/photo-1598488035139-bdbb2231ce04.jpg",
-    "duration": "VOICES THAT MATTER"
+    "duration": {"zh":"值得倾听的声音","en":"VOICES THAT MATTER"}
   }
 ];

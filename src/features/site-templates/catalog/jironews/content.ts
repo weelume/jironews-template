@@ -869,3 +869,9 @@ export const podcasts=[
     "duration": {"zh":"值得倾听的声音","en":"VOICES THAT MATTER"}
   }
 ];
+
+export const impactMetrics=[
+ {id:'readers',title:{zh:'每月超过百万读者',en:'1M+ Readers Every Month'},body:{zh:'好奇的心灵在这里相遇，通过新闻、深度分析与多元视角，一起理解世界。',en:'Millions of curious minds trust us for accurate news, in-depth analysis and diverse perspectives from around the world.'},left:'photo-1585829365295-ab7cd400c167'},
+ {id:'categories',title:{zh:'关注五十余种新闻视角',en:'50+ News Categories Covered'},body:{zh:'从全球政治与商业，到科技、体育、文化和生活，关注每一个正在改变世界的故事。',en:'From global politics and business to technology, sports, entertainment and lifestyle — all the stories that matter, in one place.'},right:'photo-1594909122845-11baa439b7bf'},
+ {id:'contributors',title:{zh:'百余位专业撰稿人遍布全球',en:'100+ Expert Contributors Worldwide'},body:{zh:'记者、分析师和行业专家带来可信的见解、新鲜的视角和有影响力的故事。',en:'Journalists, analysts and industry experts bring you trusted insights, fresh perspectives and stories that make a difference.'},left:'photo-1516035069371-29a1b244cc32',right:'photo-1477959858617-67f30bc75b82'}
+];
